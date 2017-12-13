@@ -488,7 +488,7 @@ app.use(function (err, req, res, next) {
 });
 
 function login () {
-  return rbx.login(settings.username, settings.password);
+  return rbx.login(process.env.username, process.env.password);
 }
 setInterval(login, 86400000);
 login().then(function () {
