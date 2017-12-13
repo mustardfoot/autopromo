@@ -1,6 +1,9 @@
+var username = process.env.username
+var pass = process.env.password
+var key = process.env.key
 {
-  "username": {process.env.username},
-  "password": {process.env.password},
-  "key": {process.env.key},
+  "username": username,
+  "password": pass,
+  "key": key},
   "maximumRank": 255
 }
