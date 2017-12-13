@@ -1,6 +1,6 @@
 {
-  "username": "",
-  "password":"",
-  "key": "",
+  "username": process.env.username,
+  "password": process.env.password,
+  "key": process.env.key,
   "maximumRank": 255
 }
